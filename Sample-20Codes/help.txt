@@ -1,0 +1,37 @@
+glutInitDisplayMode() : http://www.opengl.org/documentation/specs/glut/spec3/node12.html
+
+ To request alpha, specify GLUT_ALPHA
+
+glColor4i
+
+
+for alpha add these 3 lines after glutCreateWindow("My OpenGL Program") : 
+
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	glEnable( GL_BLEND ); 
+	glClearColor(0.0,0.0,0.0,0.0);
+ 
+ 
+ glBegin();
+http://www.opengl.org/sdk/docs/man2/xhtml/glBegin.xml 
+ 
+ 
+ http://www.opengl.org/documentation/specs/glut/spec3/node5.html
+
+z-buffer : 
+http://www.opengl-tutorial.org/beginners-tutorials/tutorial-4-a-colored-cube/
+
+3d objects : 
+http://www.swiftless.com/tutorials/opengl/cube.html
+
+http://www3.ntu.edu.sg/home/ehchua/programming/opengl/CG_Examples.html
+
+ellipse:
+http://www.mathopenref.com/coordparamellipse.html
+
+color : 
+http://www.december.com/html/spec/colorper.html
+http://www.avatar.se/molscript/doc/colour_names.html
+
+camera 
+http://nehe.gamedev.net/article/camera_class_tutorial/18010/

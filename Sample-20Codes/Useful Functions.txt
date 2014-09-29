@@ -1,0 +1,57 @@
+These are very useful:
+Google search for details
+
+GL_QUADS
+GL_QUAD_STRIP
+GL_LINES
+GL_TRIANGLE
+GL_TRIANGLE_FAN
+
+
+glClear
+glClearColor
+glColor3f
+glBegin
+glEnd
+glVertex3f
+
+glRotatef
+glTranslatef
+glScalef
+
+glMatrixMode
+glPushMatrix
+glPopMatrix
+glMultMatrix
+glLoadIdentity
+
+glEnable
+glDisable
+
+glNormal3f (for lighting)
+
+glClipPlane
+
+
+
+gluLookAt
+gluPerspective
+
+gluSphere
+
+gluQuadricOrientation
+gluQuadricTexture
+gluCylinder
+
+
+
+glutSolidSphere
+glutWireSphere
+glutSoldeCube
+glutWireCube
+
+glutSwapBuffers
+glutPostRedisplay
+
+But, you may need to learn other functions as well.
+
